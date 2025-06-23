@@ -3,26 +3,19 @@ Thorough analysis of an automated decision-making system, with heavy considerati
 ## Background
 The automated decision system we anmalyzed is predicting Home Credit Default Risk. Loans are a
 method of borrowing money, helping people pay for immediate expenses when they don’t
-currently have the money to do so. The expenses can vary in many forms, be it grocery shopping
-with a credit card, taking a loan to pay for down payment on a new car, or to pay for wedding
-expenses. Loans have been heavily integrated into our society, especially through the use of
-credit cards. Credit cards follow a “buy now, pay later” structure, allowing people to buy
-immediate necessities, such as groceries, before they receive their paycheck. Loans, instead, are
-more likely to be used for emergency payments, like fixing a vehicle after a car crash or paying
-for an emergency medical treatment. However, loans are typically given to people with good
+currently have the money to do so. However, loans are typically given to people with good
 credit scores, meaning that being well-off financially is often a prerequisite. To obtain a good
 credit score, you have to make use of borrowing money often and always repay the money on
-time. In that sense, a person would repay the money borrowed so fast that they wouldn’t have
-needed to borrow money in the first place. However, the people who need loans the most are
+time. However, the people who need loans the most are
 those who end up struggling the most financially. If you don’t have any spare money to pay for
 emergencies now, it will still be very difficult to pay back the borrowed amount in the future. As
 such, trusted loan lenders typically require a high credit score in order to offer people loans so
 they can be certain that most of the loans will end up repaid. However, there are a multitude of
-possible reasons as to why a person may have a low credit score. This Kaggle Competition is
+possible reasons as to why a person may have a low credit score. This ADS is
 focused on finding alternative measures to credit score that will help predict the risk of a loan
-borrower defaulting, thus allowing people with low credit scores to find a reputable business to
+borrower defaulting, allowing people with low credit scores to find a reputable business to
 obtain their loans from. The only alternative people with low credit scores have is to borrow
-money from untrustworthy lenders and thus they end up being taken advantage of. Home Credit
+money from untrustworthy lenders and thus they may end up being taken advantage of. Home Credit
 seeks to find a viable alternative to help clients get approved for loans from reputable sources
 instead.
 
