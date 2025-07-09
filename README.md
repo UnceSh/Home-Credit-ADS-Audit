@@ -1,5 +1,4 @@
 # Home-Credit-ADS-Audit
-Thorough analysis of an automated decision-making system, with heavy consideration for fairness.
 ## Background
 The automated decision system we anmalyzed is predicting Home Credit Default Risk. Loans are a
 method of borrowing money, helping people pay for immediate expenses when they don’t
