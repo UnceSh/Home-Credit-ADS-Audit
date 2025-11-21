@@ -27,12 +27,12 @@ We obtain a deep understanding of the input data, analyze the implemented code f
 - Data alignment (inner join)
 - Implementation of features combining columns via domain knowledge
   
-<br>The implemented models consist of
+<br>The implemented models consist of:
 - Logistic Regression
 - Random Forest Classifier
 - Light Gradient Boosting Machine (main model)
 
-<br>Analysis techniques consist of
+<br>Analysis techniques consist of:
 - Gender-based AUROC score comparison (accuracy)
 - Variance in performance of model (stability)
 - Equalized odds ratio and equalized odds difference (fairness)
@@ -49,7 +49,7 @@ the model is used upon. No one wants to be treated differently solely because of
 such, we would not be comfortable in deploying this ADS into the public sector. A model needs
 to be both accurate and fair to be worth deploying and using publicly. 
 <br> <br>
-Suggestions
+Suggestions:
 - The model does not have any consideration for fairness measures and even uses gender to consider default risk. Changing model implementation methodology to not be influenced by such factors may be appropiate.
 - Significant historical data is used for default risk consideration. However, the purpose of this model is to find alternative credit-risk measuring metrics for people with low amounts of history. The model heavily relies upon historical features, thus making it not a viable solution for the original problem. Reducing the use of such features may be appropiate.
   
